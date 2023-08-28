@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.allPage {
+    background: linear-gradient(rgb(194, 55, 55), rgb(0, 0, 0));
+    height: 100vh;
+}
+
+.playground {
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    background-color: #d1ccb4;
+    position: absolute;
+}
+
+.totalScore {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.totalScore p:nth-of-type(2) {
+    font-size: 40px;
+    text-align: center;
+}
+
+.totalScore0 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+.totalScore1 {
+    position: absolute;
+    top: 15%;
+    left: 77%;
+}
+
+.currentScore {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(231, 87, 87);
+
+}
+
+.currentScore p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.currentScore p:nth-of-type(2) {
+    font-size: 40px;
+
+}
+
+.currentScore0 {
+    position: absolute;
+    top: 40%;
+    left: 12%;
+}
+
+.currentScore1 {
+    position: absolute;
+    top: 40%;
+    right: 12%;
+}
+
+.middleText {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.btn {
+    border: 2px solid #d1ccb4;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    background-color: rgb(231, 87, 87);
+    color: white;
+    user-select: none;
+}
+
+.btn:hover {
+    border: 2px solid #D2263D;
+    background-color: #D2263D;
+}
+
+.kostka {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+.active {
+    border: 2px solid #AD4F34;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #AD4F34;
+}
+
+@media (max-width: 768px) {
+    .playground {
+        width: 90%;
+        left: 5%;
+        top: 5%;
+    }
+
+    .totalScore, .currentScore {
+        font-size: 20px;
+    }
+
+    .middleText {
+        font-size: 24px;
+    }
+}
